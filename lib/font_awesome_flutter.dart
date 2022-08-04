@@ -8774,6 +8774,11 @@ class FontAwesomeIcons {
   /// https://fontawesome.com/icons/phone?style=solid
   static const IconData phone = IconDataSolid(0xf095);
 
+  /// Solid Phone icon
+  ///
+  /// https://fontawesome.com/icons/phone?style=solid
+  static const IconData phoneArrowDown = IconDataSolid(0xe223);
+
   /// Solid Phone flip icon
   ///
   /// https://fontawesome.com/icons/phone-flip?style=solid
@@ -9813,10 +9818,15 @@ class FontAwesomeIcons {
   @Deprecated('Use "shareFromSquare" instead.')
   static const IconData shareSquare = shareFromSquare;
 
+  /// Regular Share nodes icon
+  ///
+  /// https://fontawesome.com/icons/share-nodes?style=regular
+  static const IconData shareNodes = IconDataRegular(0xf1e0);
+
   /// Solid Share nodes icon
   ///
   /// https://fontawesome.com/icons/share-nodes?style=solid
-  static const IconData shareNodes = IconDataSolid(0xf1e0);
+  static const IconData solidShareNodes = IconDataSolid(0xf1e0);
 
   /// Alias share-alt for icon [shareNodes]
   @Deprecated('Use "shareNodes" instead.')
